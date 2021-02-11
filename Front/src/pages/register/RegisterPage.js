@@ -58,21 +58,21 @@ class RegisterPage extends BasePage {
                             <label>
                                 Nom *
                             </label>
-                            <input name="lastName" type="text" value={this.state.lastname} onChange={this.handleChange} />
+                            <input name="lastname" type="text" value={this.state.lastname} onChange={this.handleChange} />
                         </div>
 
                         <div>
                             <label>
                                 Prénom *
                             </label>
-                            <input name="firstName" type="text" value={this.state.firstname} onChange={this.handleChange} />
+                            <input name="firstname" type="text" value={this.state.firstname} onChange={this.handleChange} />
                         </div>
 
                         <div>
                             <label>
                                 Pseudo *
                             </label>
-                            <input name="firstName" type="text" value={this.state.username} onChange={this.handleChange} />
+                            <input name="username" type="text" value={this.state.username} onChange={this.handleChange} />
                         </div>
 
                         <div>
