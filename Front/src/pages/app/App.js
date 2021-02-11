@@ -1,16 +1,16 @@
-import './App.scss';
+import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import HomePage from '../home/HomePage';
 import { Routes } from '../../constantes/routes';
+import HomePage from '../home/HomePage';
 import LoginPage from "../login/LoginPage";
 import RegisterPage from "../register/RegisterPage";
+import DetailArticlePage from "../article/DetailsArticlePage";
 
 function App() {
     return (
         <Router>
             <Switch className="container">
-                <Route path={Routes.ExemplePage} component={ExemplePage} />
-                <Route path={Routes.DetailConcert + '/:id'} component={DetailConcertPage} />
+                <Route path={Routes.DetailsArticle + '/:id'} component={DetailArticlePage} />
                 <Route path={Routes.LoginPage} component={LoginPage} />
                 <Route path={Routes.RegisterPage} component={RegisterPage} />
 

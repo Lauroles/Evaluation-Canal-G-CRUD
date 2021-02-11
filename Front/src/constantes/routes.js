@@ -3,4 +3,6 @@ export const Routes = {
     DetailsArticle: '/article',
     LoginPage: '/login',
     RegisterPage: '/register',
+    NewArticle: '/article/new',
+    PutArticle: '/article',
 };
